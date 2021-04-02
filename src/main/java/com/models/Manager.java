@@ -1,14 +1,14 @@
+package com.models;
+
 public class Manager extends Employee{
 
-    int salary = 13000;
-
     public int salaryCalculation(){
-        return salary;
+        return salary = 13000;
     }
 
     @Override
     public String toString() {
-        return "Manager, " +
+        return "com.models.Manager, " +
                 "salary = " + salaryCalculation();
     }
 }

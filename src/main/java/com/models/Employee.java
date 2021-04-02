@@ -1,6 +1,8 @@
+package com.models;
+
 public class Employee {
 
-    int salary;
+    protected int salary;
 
     public int salaryCalculation(){
         return salary;
